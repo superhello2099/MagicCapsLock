@@ -250,4 +250,8 @@ CapsLock::{
 CapsLock & WheelUp::Send "{PgUp}"
 
 ; 向下滚动时翻下一页
-CapsLock & WheelDown::Send "{PgDn}" 
+CapsLock & WheelDown::Send "{PgDn}"
+
+#HotIf IsMagicCapsLockActive()
+; Navigation keys
+x::Send "{Alt down}{F4}{Alt up}" ; Close current window (like Alt+F4) 
