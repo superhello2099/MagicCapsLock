@@ -1,343 +1,124 @@
-# MagicCapsLock - AutoHotkey Enhancement Script
+# 🎮 MagicCapsLock
 
-<div align="center">
+[![Version](https://img.shields.io/badge/Version-1.1.0-blue.svg)](https://github.com/superhello2099/MagicCapsLock/releases)
+[![AutoHotkey](https://img.shields.io/badge/AutoHotkey-v2.0-green.svg)](https://www.autohotkey.com/)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Windows](https://img.shields.io/badge/Platform-Windows-lightgrey.svg)](https://github.com/superhello2099/MagicCapsLock)
 
-[![Release](https://img.shields.io/badge/release-v1.0.4-blue.svg)](https://github.com/superhello2099/MagicCapsLock/releases)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![AutoHotkey](https://img.shields.io/badge/AutoHotkey-1.1-orange.svg)](https://www.autohotkey.com/)
-[![Windows](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
+> 🚀 Transform your CapsLock key into a powerful productivity booster!  
+> 🚀 将你的 CapsLock 键变成强大的生产力工具！
 
-[English](#english) | [中文](#chinese)
+[English](#english) | [中文说明](#中文说明)
 
-<img src="assets/logo.svg" alt="MagicCapsLock Logo" width="200"/>
+## ✨ Features | 特性
 
-A powerful AutoHotkey script that transforms your CapsLock key into a productivity powerhouse
+- 🎯 **Smart Lock Control** - Intelligent management of CapsLock, NumLock, and ScrollLock
+- 🎹 **Rich Hotkey Combinations** - CapsLock + Function keys for quick actions
+- 🔔 **Visual & Audio Feedback** - Clear status notifications and sound effects
+- 🛡️ **Safe & Lightweight** - Minimal resource usage, maximum efficiency
+- 🎨 **User-Friendly Interface** - Beautiful installer and clear instructions
+- 🔄 **Auto-Start Support** - Automatically runs at system startup
 
-</div>
+## 🚀 Quick Start | 快速开始
 
----
+1. Download the latest installer from [Releases](https://github.com/superhello2099/MagicCapsLock/releases)
+2. Run `MagicCapsLock_Setup.exe`
+3. Press `CapsLock + F1` to view all available hotkeys
 
-## 🎯 About
+## English
 
-MagicCapsLock 是一个革命性的键盘增强工具，它能让你的 CapsLock 键变身为效率神器！
+### Introduction
 
-- 🚀 **一键启动**：无需复杂配置，下载即用
-- 💡 **极简设计**：符合人体工程学的快捷键布局，让你的双手始终保持在键盘最舒适区域
-- ⚡ **效率倍增**：文本编辑速度提升200%，窗口管理效率提升300%
-- 🎓 **易于掌握**：内置交互式教程，30分钟即可掌握所有核心功能
-- 🛠️ **功能丰富**：集成文本处理、窗口管理、快捷搜索等多种实用功能
-- 🎮 **游戏友好**：智能切换模式，游戏时自动暂停，不影响游戏体验
+MagicCapsLock is an innovative Windows utility that transforms your CapsLock key into a powerful productivity tool. By combining CapsLock with other keys, you can perform various actions quickly and efficiently.
 
-> 💪 **谁适合使用？**
-> - 程序开发者：快速的代码导航和编辑
-> - 文字工作者：高效的文本处理和格式转换
-> - 办公人员：便捷的窗口管理和文档处理
-> - 效率爱好者：想要提升工作效率的所有人
+### Key Features
 
-<a id="english"></a>
+#### 🎯 Smart Lock Management
+- Toggle CapsLock, NumLock, and ScrollLock individually or together
+- Visual feedback for lock status changes
+- Sound effects for enhanced user experience
 
-# 🚀 MagicCapsLock - AutoHotkey Enhancement Script
+#### 🎹 Hotkey System
+- Function key combinations (F1-F12)
+- Navigation key combinations
+- Number and symbol key combinations
+- Shift modifier support
 
-## ⚡ Quick Start
+#### 🛡️ System Integration
+- Lightweight and efficient
+- Automatic startup option
+- Easy installation and uninstallation
+- User-level installation (no admin rights required)
 
-1. **Install AutoHotkey**:
-   - Download from [AutoHotkey Official Site](https://www.autohotkey.com/download/)
-   - Run the installer and follow the prompts (default options are fine)
+### Installation
 
-2. **Get the Script**:
-   - Download `magic_capslock.ahk` from [latest release](https://github.com/superhello2099/MagicCapsLock/releases)
-   - Save it anywhere on your computer
+1. Download `MagicCapsLock_Setup.exe`
+2. Run the installer
+3. Follow the setup wizard
+4. Enjoy the enhanced keyboard experience!
 
-3. **Run the Script**:
-   - Double-click the script file to run it immediately
-   - A small "H" icon will appear in your system tray showing the script is active
+### Basic Usage
 
-4. **Auto-start with Windows** (recommended):
-   - Press `Win+R`, type `shell:startup` and press Enter
-   - Copy or create a shortcut to the script in this folder
-   - The script will now run automatically each time you start your computer
+- `CapsLock + F1`: Show help (all available hotkeys)
+- `CapsLock + F2`: Toggle CapsLock
+- `CapsLock + F3`: Toggle NumLock
+- `CapsLock + F4`: Toggle ScrollLock
+- Triple-press CapsLock: Traditional CapsLock toggle
 
-## ✨ Features
+## 中文说明
 
-### 🎯 Core Functionality
-- CapsLock becomes a modifier key for 30+ custom shortcuts
-- Triple-press CapsLock to toggle traditional CapsLock state
+### 简介
 
-### 🎮 Navigation
-- Vim-like cursor movement (h/j/k/l style with different keys)
-- Quick word/line/page navigation
-- Efficient text selection
+MagicCapsLock 是一款创新的 Windows 工具，它能将你的 CapsLock 键变成强大的生产力工具。通过组合 CapsLock 与其他按键，你可以快速高效地执行各种操作。
 
-### ✏️ Text Editing
-- Delete words, lines, and characters with ease
-- Case conversion (lowercase, UPPERCASE, Title Case)
-- Indentation control
+### 主要特性
 
-### 🪟 Window Management
-- Toggle window always-on-top
-- Minimize current window
+#### 🎯 智能锁定键管理
+- 单独或同时切换 CapsLock、NumLock 和 ScrollLock
+- 锁定状态变化的视觉反馈
+- 增强用户体验的声音效果
 
-### 🎁 Additional Features
-- Quick Google search of selected text
-- Perplexity AI quick access
-- Date insertion
-- Built-in help system (Caps+F1)
+#### 🎹 快捷键系统
+- 功能键组合（F1-F12）
+- 导航键组合
+- 数字和符号键组合
+- Shift 修饰键支持
 
-## 📖 Usage
+#### 🛡️ 系统集成
+- 轻量级且高效
+- 开机自启动选项
+- 简单的安装和卸载
+- 用户级安装（无需管理员权限）
 
-> Press **CapsLock + F1** at any time to see all available shortcuts.
+### 安装方法
 
-### ⌨️ Key Shortcuts Overview
+1. 下载 `MagicCapsLock_Setup.exe`
+2. 运行安装程序
+3. 按照安装向导操作
+4. 享受增强的键盘体验！
 
-<details>
-<summary>📍 Cursor Movement</summary>
+### 基本用法
 
-| Shortcut | Action |
-|----------|--------|
-| `CapsLock + f` | Right |
-| `CapsLock + b` | Left |
-| `CapsLock + u` | Up |
-| `CapsLock + n` | Down |
-| `CapsLock + p` | Word Right |
-| `CapsLock + o` | Word Left |
-| `CapsLock + a` | Home |
-| `CapsLock + e` | End |
-| `CapsLock + t` | Page Up |
-| `CapsLock + v` | Page Down |
+- `CapsLock + F1`: 显示帮助（所有可用快捷键）
+- `CapsLock + F2`: 切换 CapsLock
+- `CapsLock + F3`: 切换 NumLock
+- `CapsLock + F4`: 切换 ScrollLock
+- 连按三次 CapsLock: 传统的 CapsLock 切换
 
-</details>
+## 🤝 Contributing | 贡献
 
-<details>
-<summary>✂️ Text Editing</summary>
+Feel free to submit issues and enhancement requests!
 
-| Shortcut | Action |
-|----------|--------|
-| `CapsLock + h` | Backspace |
-| `CapsLock + d` | Delete |
-| `CapsLock + k` | Delete Word Right |
-| `CapsLock + j` | Delete Word Left |
-| `CapsLock + l` | Delete to End |
-| `CapsLock + x` | Cut Line |
-| `CapsLock + [/]` | Indent Left/Right |
+欢迎提交问题和改进建议！
 
-</details>
+## 📝 License | 许可
 
-<details>
-<summary>📝 Selection & Formatting</summary>
+[MIT License](LICENSE) - Copyright (c) 2025 superhello2099
 
-| Shortcut | Action |
-|----------|--------|
-| `CapsLock + q` | Selection Mode |
-| `CapsLock + i` | Select Current Line |
-| `CapsLock + .` | To UPPERCASE |
-| `CapsLock + ,` | To lowercase |
-| `CapsLock + /` | Capitalize First |
-| `CapsLock` (3x) | Toggle CapsLock |
+## 🌟 Star History | Star 历史
 
-</details>
-
-<details>
-<summary>🔧 Other Functions</summary>
-
-| Shortcut | Action |
-|----------|--------|
-| `CapsLock + w` | Window Always on Top |
-| `CapsLock + m` | Minimize Window |
-| `CapsLock + s` | Open Perplexity |
-| `CapsLock + g` | Search Selected Text |
-| `CapsLock + c` | Smart URL Open |
-| `CapsLock + r` | Enter Key |
-| `CapsLock + z` | Esc Key |
-| `CapsLock + `` | Insert Date |
-| `CapsLock + F1` | Help Screen |
-
-</details>
-
-## 📝 Version History
-
-### v1.0.4 (2024-03-17)
-- 🔄 Updated: Migrated to AutoHotkey v2 syntax
-- 🐛 Fixed: ClipboardAll compatibility issues
-- ✨ Enhanced: Better error handling and feedback
-
-### v1.0.3 (2024-03-17)
-- ✨ Enhanced: Improved URL open feature with better feedback
-- 🎨 Added: Visual feedback for URL operations
-- 🔧 Fixed: Help UI layout for better readability
-
-### v1.0.2 (2024-03-17)
-- ✨ Added: Smart URL open feature (CapsLock + c)
-- 🔄 Changed: Removed mouse left click in favor of smart URL open
-- 📝 Enhanced: Improved documentation clarity and organization
-
-### v1.0.1 (2024-03-17)
-- 🐛 Fixed: Improved CapsLock + s functionality to copy text before opening Perplexity
-- ✨ Enhanced: Better clipboard handling for text operations
-
-### v1.0.0 (2024-03-17)
-- 🎉 Initial release
-- ✨ Basic CapsLock enhancement features
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-Copyright (c) 2024 superhello2099
+[![Star History Chart](https://api.star-history.com/svg?repos=superhello2099/MagicCapsLock&type=Date)](https://star-history.com/#superhello2099/MagicCapsLock&Date)
 
 ---
 
-<a id="chinese"></a>
-
-# 🚀 MagicCapsLock - AutoHotkey 增强脚本
-
-<div align="center">
-
-将你的 CapsLock 键变成效率利器，让键盘操作快如闪电！
-
-</div>
-
-## ⚡ 快速开始
-
-1. **安装 AutoHotkey**:
-   - 从 [AutoHotkey 官网](https://www.autohotkey.com/download/) 下载
-   - 运行安装程序，按照提示操作（默认选项即可）
-
-2. **获取脚本**:
-   - 从[最新发布](https://github.com/superhello2099/MagicCapsLock/releases)下载 `magic_capslock.ahk` 文件
-   - 保存到计算机上的任意位置
-
-3. **运行脚本**:
-   - 双击脚本文件立即运行
-   - 系统托盘会出现一个小"H"图标，表示脚本已激活
-
-4. **随 Windows 自启动**（推荐）:
-   - 按下 `Win+R`，输入 `shell:startup` 并回车
-   - 将脚本复制或创建快捷方式到此文件夹
-   - 这样每次启动计算机时脚本都会自动运行
-
-## ✨ 功能特点
-
-### 🎯 核心功能
-- CapsLock 成为 30+ 自定义快捷键的修饰键
-- 连按三次 CapsLock 切换传统的大小写锁定状态
-
-### 🎮 导航功能
-- 类似 Vim 的光标移动（h/j/k/l 风格但使用不同按键）
-- 快速的词/行/页面导航
-- 高效的文本选择
-
-### ✏️ 文本编辑
-- 轻松删除词、行和字符
-- 大小写转换（小写、大写、首字母大写）
-- 缩进控制
-
-### 🪟 窗口管理
-- 切换窗口置顶状态
-- 最小化当前窗口
-
-### 🎁 其他功能
-- 快速 Google 搜索选中文本
-- 快速访问 Perplexity AI
-- 日期插入
-- 内置帮助系统（Caps+F1）
-
-## 📖 使用方法
-
-> 随时按下 **CapsLock + F1** 查看所有可用快捷键。
-
-### ⌨️ 快捷键概览
-
-<details>
-<summary>📍 光标移动</summary>
-
-| 快捷键 | 功能 |
-|--------|------|
-| `CapsLock + f` | 向右 |
-| `CapsLock + b` | 向左 |
-| `CapsLock + u` | 向上 |
-| `CapsLock + n` | 向下 |
-| `CapsLock + p` | 向右移动一个词 |
-| `CapsLock + o` | 向左移动一个词 |
-| `CapsLock + a` | 行首 |
-| `CapsLock + e` | 行尾 |
-| `CapsLock + t` | 上一页 |
-| `CapsLock + v` | 下一页 |
-
-</details>
-
-<details>
-<summary>✂️ 文本编辑</summary>
-
-| 快捷键 | 功能 |
-|--------|------|
-| `CapsLock + h` | 退格 |
-| `CapsLock + d` | 删除 |
-| `CapsLock + k` | 删除右侧词 |
-| `CapsLock + j` | 删除左侧词 |
-| `CapsLock + l` | 删除至行尾 |
-| `CapsLock + x` | 剪切整行 |
-| `CapsLock + [/]` | 左/右缩进 |
-
-</details>
-
-<details>
-<summary>📝 选择和格式化</summary>
-
-| 快捷键 | 功能 |
-|--------|------|
-| `CapsLock + q` | 选择模式 |
-| `CapsLock + i` | 选择当前行 |
-| `CapsLock + .` | 转为大写 |
-| `CapsLock + ,` | 转为小写 |
-| `CapsLock + /` | 首字母大写 |
-| `CapsLock`（3次） | 切换大小写锁定 |
-
-</details>
-
-<details>
-<summary>🔧 其他功能</summary>
-
-| 快捷键 | 功能 |
-|--------|------|
-| `CapsLock + w` | 窗口置顶/取消 |
-| `CapsLock + m` | 最小化窗口 |
-| `CapsLock + s` | 打开 Perplexity |
-| `CapsLock + g` | 搜索选中文本 |
-| `CapsLock + c` | 智能打开 URL |
-| `CapsLock + r` | 回车键 |
-| `CapsLock + z` | Esc 键 |
-| `CapsLock + `` | 插入日期 |
-| `CapsLock + F1` | 帮助界面 |
-
-</details>
-
-## 📝 版本历史
-
-### v1.0.4 (2024-03-17)
-- 🔄 更新：迁移到 AutoHotkey v2 语法
-- 🐛 修复：ClipboardAll 兼容性问题
-- ✨ 增强：更好的错误处理和反馈
-
-### v1.0.3 (2024-03-17)
-- ✨ 增强：改进 URL 打开功能的反馈机制
-- 🎨 新增：URL 操作的可视化反馈
-- 🔧 修复：优化帮助界面布局提高可读性
-
-### v1.0.2 (2024-03-17)
-- ✨ 新增：智能 URL 打开功能 (CapsLock + c)
-- 🔄 变更：移除鼠标左键点击，改为智能 URL 打开
-- 📝 优化：改进文档清晰度和组织结构
-
-### v1.0.1 (2024-03-17)
-- 🐛 修复：改进 CapsLock + s 功能，先复制文本再打开 Perplexity
-- ✨ 增强：优化剪贴板处理
-
-### v1.0.0 (2024-03-17)
-- 🎉 初始发布
-- ✨ 基础 CapsLock 增强功能
-
-## 📄 许可证
-
-本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
-
-Copyright (c) 2025 superhello2099
+Made with ❤️ by superhello2099
