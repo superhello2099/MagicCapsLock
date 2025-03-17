@@ -89,11 +89,15 @@ CapsLock & z::Esc
 ; 智能 URL 打开
 CapsLock & c::
 {
+    ; 保存当前剪贴板内容
     ClipSaved := ClipboardAll()
     A_Clipboard := ""
-    Send "^c"
-    ClipWait 1
     
+    ; 复制选中内容
+    Send ^c
+    if !ClipWait(1)
+        return
+        
     text := A_Clipboard
     
     ; 检查是否为URL（包括无协议的域名）
@@ -103,9 +107,20 @@ CapsLock & c::
         if !RegExMatch(text, "^https?://")
             text := "https://" text
             
-        Run text
+        try {
+            Run text,, "Max"
+            ToolTip "正在打开: " text
+            SetTimer RemoveToolTip, -1000
+        } catch {
+            ToolTip "无法打开URL: " text
+            SetTimer RemoveToolTip, -2000
+        }
+    } else {
+        ToolTip "未检测到有效URL"
+        SetTimer RemoveToolTip, -1000
     }
     
+    ; 恢复剪贴板
     A_Clipboard := ClipSaved
     ClipSaved := ""
 }
@@ -190,13 +205,14 @@ CapsLock & F1::
   Gui, Add, Text, x310 y260 w260, CapsLock + m     -> Minimize Window
   Gui, Add, Text, x310 y280 w260, CapsLock + s     -> Open Perplexity
   Gui, Add, Text, x310 y300 w260, CapsLock + g     -> Search Selected Text
-  Gui, Add, Text, x310 y320 w260, CapsLock + r     -> Enter Key
-  Gui, Add, Text, x310 y340 w260, CapsLock + z     -> Esc Key
-  Gui, Add, Text, x310 y360 w260, CapsLock + `     -> Insert Date
+  Gui, Add, Text, x310 y320 w260, CapsLock + c     -> Smart URL Open
+  Gui, Add, Text, x310 y340 w260, CapsLock + r     -> Enter Key
+  Gui, Add, Text, x310 y360 w260, CapsLock + z     -> Esc Key
+  Gui, Add, Text, x310 y380 w260, CapsLock + `     -> Insert Date
   
-  Gui, Add, Button, x250 y390 w100 h30 gCloseHelp, Close
+  Gui, Add, Button, x250 y410 w100 h30 gCloseHelp, Close
   
-  Gui, Show, w590 h430, CapsLock Enhanced Script Help
+  Gui, Show, w590 h450, CapsLock Enhanced Script Help
 Return
 
 CloseHelp:
