@@ -9,7 +9,7 @@
 
 [English](#english) | [中文](#chinese)
 
-<img src="https://raw.githubusercontent.com/superhello2099/MagicCapsLock/main/assets/logo.png" alt="MagicCapsLock Logo" width="200"/>
+<img src="assets/logo.svg" alt="MagicCapsLock Logo" width="200"/>
 
 *Transform your CapsLock key from rarely-used annoyance to productivity supercharger*
 
