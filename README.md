@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Release](https://img.shields.io/badge/release-v1.0.1-blue.svg)](https://github.com/superhello2099/MagicCapsLock/releases)
+[![Release](https://img.shields.io/badge/release-v1.0.2-blue.svg)](https://github.com/superhello2099/MagicCapsLock/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![AutoHotkey](https://img.shields.io/badge/AutoHotkey-1.1-orange.svg)](https://www.autohotkey.com/)
 [![Windows](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
@@ -137,6 +137,11 @@
 </details>
 
 ## 📝 Version History
+
+### v1.0.2 (2024-03-17)
+- ✨ Added: Smart URL open feature (CapsLock + c)
+- 🔄 Changed: Removed mouse left click in favor of smart URL open
+- 📝 Enhanced: Improved documentation clarity and organization
 
 ### v1.0.1 (2024-03-17)
 - 🐛 Fixed: Improved CapsLock + s functionality to copy text before opening Perplexity
@@ -280,6 +285,11 @@ Copyright (c) 2024 superhello2099
 </details>
 
 ## 📝 版本历史
+
+### v1.0.2 (2024-03-17)
+- ✨ 新增：智能 URL 打开功能 (CapsLock + c)
+- 🔄 变更：移除鼠标左键点击，改为智能 URL 打开
+- 📝 优化：改进文档清晰度和组织结构
 
 ### v1.0.1 (2024-03-17)
 - 🐛 修复：改进 CapsLock + s 功能，先复制文本再打开 Perplexity
