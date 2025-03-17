@@ -108,7 +108,9 @@ Press **CapsLock + F1** at any time to see all available shortcuts.
 
 ## License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2024 superhello2099
 
 ---
 
@@ -218,4 +220,6 @@ MIT License
 
 ## 许可证
 
-MIT 许可证
+本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
+
+Copyright (c) 2024 superhello2099
