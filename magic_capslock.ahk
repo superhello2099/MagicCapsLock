@@ -86,8 +86,29 @@ CapsLock & r::Send, {Enter}
 ; 将 Caps Lock + Z 组合键映射为 Esc 键
 CapsLock & z::Esc
 
-; 鼠标左键点击
-CapsLock & c::Send, {LButton}
+; 智能 URL 打开
+CapsLock & c::
+{
+    ClipSaved := ClipboardAll()
+    A_Clipboard := ""
+    Send "^c"
+    ClipWait 1
+    
+    text := A_Clipboard
+    
+    ; 检查是否为URL（包括无协议的域名）
+    if RegExMatch(text, "^(https?://|www\.|[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+)")
+    {
+        ; 如果没有协议前缀，添加https://
+        if !RegExMatch(text, "^https?://")
+            text := "https://" text
+            
+        Run text
+    }
+    
+    A_Clipboard := ClipSaved
+    ClipSaved := ""
+}
 
 ; 小写转大写
 CapsLock & .::

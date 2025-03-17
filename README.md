@@ -1,4 +1,4 @@
-# MagicCapsLock
+# MagicCapsLock - AutoHotkey Enhancement Script
 
 <div align="center">
 
@@ -11,7 +11,7 @@
 
 <img src="assets/logo.svg" alt="MagicCapsLock Logo" width="200"/>
 
-*Transform your CapsLock key from rarely-used annoyance to productivity supercharger*
+*A powerful AutoHotkey script that transforms your CapsLock key into a productivity powerhouse*
 
 </div>
 
@@ -19,7 +19,7 @@
 
 <a id="english"></a>
 
-# 🚀 MagicCapsLock
+# 🚀 MagicCapsLock - AutoHotkey Enhancement Script
 
 ## ⚡ Quick Start
 
@@ -128,6 +128,7 @@
 | `CapsLock + m` | Minimize Window |
 | `CapsLock + s` | Open Perplexity |
 | `CapsLock + g` | Search Selected Text |
+| `CapsLock + c` | Smart URL Open |
 | `CapsLock + r` | Enter Key |
 | `CapsLock + z` | Esc Key |
 | `CapsLock + `` | Insert Date |
@@ -155,11 +156,11 @@ Copyright (c) 2024 superhello2099
 
 <a id="chinese"></a>
 
-# 🚀 MagicCapsLock 中文版
+# 🚀 MagicCapsLock - AutoHotkey 增强脚本
 
 <div align="center">
 
-*将几乎从不使用的 CapsLock 键变成效率倍增器*
+*一个强大的 AutoHotkey 脚本，将你的 CapsLock 键变成效率利器*
 
 </div>
 
@@ -270,6 +271,7 @@ Copyright (c) 2024 superhello2099
 | `CapsLock + m` | 最小化窗口 |
 | `CapsLock + s` | 打开 Perplexity |
 | `CapsLock + g` | 搜索选中文本 |
+| `CapsLock + c` | 智能打开 URL |
 | `CapsLock + r` | 回车键 |
 | `CapsLock + z` | Esc 键 |
 | `CapsLock + `` | 插入日期 |
