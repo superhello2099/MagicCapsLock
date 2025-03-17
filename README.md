@@ -340,4 +340,4 @@ Copyright (c) 2024 superhello2099
 
 本项目采用 MIT 许可证 - 详见 [LICENSE](LICENSE) 文件。
 
-Copyright (c) 2024 superhello2099
+Copyright (c) 2025 superhello2099
