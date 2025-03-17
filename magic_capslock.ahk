@@ -1,6 +1,7 @@
 ; ====================================================================================
-; MagicCapsLock - 2025年3月17日
+; MagicCapsLock - 2024年3月17日
 ; 功能：将CapsLock键完全改造为修饰键，使用连按三次CapsLock来切换大小写
+; 版本：v1.0.1
 ; ====================================================================================
 #NoEnv
 SendMode Input
@@ -66,8 +67,12 @@ Return
 ; 窗口置顶/取消置顶
 CapsLock & w::WinSet, AlwaysOnTop, Toggle, A
 
-; 打开Perplexity官网
-CapsLock & s::Run, https://www.perplexity.ai
+; 复制并打开Perplexity
+CapsLock & s::
+ Send, ^c
+ Sleep, 30
+ Run, https://www.perplexity.ai
+Return
 
 ; 复制并用Google搜索选中文本
 CapsLock & g::

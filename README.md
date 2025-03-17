@@ -1,3 +1,45 @@
+# MagicCapsLock
+
+A productivity enhancer for Windows that transforms the Caps Lock key into a powerful tool for text manipulation.
+
+## Features
+
+- Converts Caps Lock into a modifier key
+- Enhances text input efficiency
+- Customizable shortcuts and actions
+- Triple-press CapsLock to toggle traditional CapsLock state
+
+## Installation
+
+1. Download the latest release (v1.0.1)
+2. Run the `MagicCapsLock.ahk` script
+3. The script will automatically start with Windows
+
+## Usage
+
+[Usage instructions will be added here]
+
+## Requirements
+
+- Windows operating system
+- AutoHotkey v2.0 or later
+
+## Version History
+
+### v1.0.1 (2024-03-17)
+- Fixed: Improved CapsLock + s functionality to copy text before opening Perplexity
+- Enhanced: Better clipboard handling for text operations
+
+### v1.0.0 (2024-03-17)
+- Initial release
+- Basic CapsLock enhancement features
+
+## License
+
+[License information will be added here]
+
+---
+
 # MagicCapsLock: Unlock Your Keyboard's Hidden Power
 
 **Transform your CapsLock key from rarely-used annoyance to productivity supercharger.**
