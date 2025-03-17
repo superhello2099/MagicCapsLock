@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![Release](https://img.shields.io/badge/release-v1.0.2-blue.svg)](https://github.com/superhello2099/MagicCapsLock/releases)
+[![Release](https://img.shields.io/badge/release-v1.0.3-blue.svg)](https://github.com/superhello2099/MagicCapsLock/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![AutoHotkey](https://img.shields.io/badge/AutoHotkey-1.1-orange.svg)](https://www.autohotkey.com/)
 [![Windows](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://www.microsoft.com/windows)
@@ -137,6 +137,11 @@
 </details>
 
 ## 📝 Version History
+
+### v1.0.3 (2024-03-17)
+- ✨ Enhanced: Improved URL open feature with better feedback
+- 🎨 Added: Visual feedback for URL operations
+- 🔧 Fixed: Help UI layout for better readability
 
 ### v1.0.2 (2024-03-17)
 - ✨ Added: Smart URL open feature (CapsLock + c)
@@ -285,6 +290,11 @@ Copyright (c) 2024 superhello2099
 </details>
 
 ## 📝 版本历史
+
+### v1.0.3 (2024-03-17)
+- ✨ 增强：改进 URL 打开功能的反馈机制
+- 🎨 新增：URL 操作的可视化反馈
+- 🔧 修复：优化帮助界面布局提高可读性
 
 ### v1.0.2 (2024-03-17)
 - ✨ 新增：智能 URL 打开功能 (CapsLock + c)
