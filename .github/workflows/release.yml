@@ -1,0 +1,31 @@
+name: Release Workflow
+
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+
+jobs:
+  release:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      # 检查版本号格式
+      - name: Verify version format
+        run: |
+          if ("${{ github.ref }}" -notmatch '^refs/tags/v\d+\.\d+\.\d+$') {
+            echo "Invalid version format. Must be v*.*.* (e.g., v1.0.0)"
+            exit 1
+          }
+      
+      # 创建 Release
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          name: ${{ github.ref_name }}
+          body_path: release_notes.md
+          draft: false
+          prerelease: false
+          files: |
+            magic_capslock.ahk 
