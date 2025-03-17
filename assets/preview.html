@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MagicCapsLock Assets Preview</title>
+    <style>
+        body {
+            background: #1a1a1a;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        .preview-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #333;
+            border-radius: 8px;
+        }
+        .preview-section h2 {
+            color: #4F46E5;
+            margin-bottom: 15px;
+        }
+        .preview-item {
+            margin: 10px 0;
+        }
+        .preview-item img {
+            background: #fff;
+            padding: 10px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>MagicCapsLock Assets Preview</h1>
+    
+    <div class="preview-section">
+        <h2>Logo</h2>
+        <div class="preview-item">
+            <object data="logo.svg" type="image/svg+xml" width="200" height="200"></object>
+        </div>
+    </div>
+    
+    <div class="preview-section">
+        <h2>Installer Side Image (164x314)</h2>
+        <div class="preview-item">
+            <object data="installer-side.svg" type="image/svg+xml" width="164" height="314"></object>
+        </div>
+    </div>
+    
+    <div class="preview-section">
+        <h2>Installer Header (150x57)</h2>
+        <div class="preview-item">
+            <object data="installer-header.svg" type="image/svg+xml" width="150" height="57"></object>
+        </div>
+    </div>
+    
+    <script>
+        // 添加下载链接
+        document.querySelectorAll('object').forEach(obj => {
+            const link = document.createElement('div');
+            link.innerHTML = `<br><a href="${obj.data}" download style="color: #4F46E5;">Download ${obj.data}</a>`;
+            obj.parentNode.appendChild(link);
+        });
+    </script>
+</body>
+</html> 
