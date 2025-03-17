@@ -252,6 +252,13 @@ CapsLock & WheelUp::Send "{PgUp}"
 ; 向下滚动时翻下一页
 CapsLock & WheelDown::Send "{PgDn}"
 
+; ====================================================================================
+; 检查 MagicCapsLock 是否激活的函数
+; ====================================================================================
+IsMagicCapsLockActive() {
+    return true  ; 始终返回 true，表示功能始终处于激活状态
+}
+
 #HotIf IsMagicCapsLockActive()
 ; Navigation keys
 x::Send "{Alt down}{F4}{Alt up}" ; Close current window (like Alt+F4) 

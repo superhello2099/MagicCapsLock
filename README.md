@@ -53,36 +53,41 @@ MagicCapsLock is an innovative Windows utility that transforms your CapsLock key
 ### Default Hotkeys
 
 #### Function Keys
-- `CapsLock + F1`: Show help screen
-- `CapsLock + F2`: Toggle CapsLock
-- `CapsLock + F3`: Toggle NumLock
-- `CapsLock + F4`: Toggle ScrollLock
-- `CapsLock + F5`: Toggle all locks
+- `CapsLock + F1`: Show help screen with all available shortcuts
+- Triple-press CapsLock: Toggle traditional CapsLock
 
 #### Navigation
-- `CapsLock + H/J/K/L`: Left/Down/Up/Right (Vim-style)
-- `CapsLock + I/O`: Home/End
-- `CapsLock + U`: Page Up
-- `CapsLock + N`: Page Down
-- `CapsLock + X`: Close current window (Alt+F4)
+- `CapsLock + f/b/u/n`: Right/Left/Up/Down
+- `CapsLock + p/o`: Word Right/Left
+- `CapsLock + a/e`: Home/End
+- `CapsLock + t/v`: Page Up/Down
+- Mouse wheel with CapsLock: Quick page scrolling
 
 #### Text Editing
-- `CapsLock + A`: Select all (Ctrl+A)
-- `CapsLock + Z`: Undo (Ctrl+Z)
-- `CapsLock + Y`: Redo (Ctrl+Y)
-- `CapsLock + C`: Copy (Ctrl+C)
-- `CapsLock + V`: Paste (Ctrl+V)
+- `CapsLock + h`: Backspace
+- `CapsLock + d`: Delete
+- `CapsLock + j`: Delete word left
+- `CapsLock + k`: Delete word right
+- `CapsLock + l`: Delete to line end
+- `CapsLock + x`: Cut current line
+- `CapsLock + [/]`: Indent left/right
+- `CapsLock + .`: Convert to UPPERCASE
+- `CapsLock + ,`: Convert to lowercase
+- `CapsLock + /`: Capitalize first letter
 
-#### Window Management
-- `CapsLock + Tab`: Switch between windows (Alt+Tab)
-- `CapsLock + Q`: Switch to previous tab (Ctrl+Shift+Tab)
-- `CapsLock + E`: Switch to next tab (Ctrl+Tab)
-- `CapsLock + W`: Close current tab (Ctrl+W)
+#### Selection & Special Functions
+- `CapsLock + q`: Enter selection mode
+- `CapsLock + i`: Select current line
+- `CapsLock + w`: Toggle window always on top
+- `CapsLock + m`: Minimize window
+- `CapsLock + z`: Send Esc key
+- `CapsLock + r`: Send Enter key
+- `CapsLock + \``: Insert current date
 
-#### Special Functions
-- Triple-press CapsLock: Toggle traditional CapsLock
-- `CapsLock + Space`: Toggle input method
-- `CapsLock + Esc`: Task Manager
+#### Web & Search
+- `CapsLock + s`: Open selected text in Perplexity
+- `CapsLock + g`: Search selected text in Google
+- `CapsLock + c`: Smart URL open
 
 ### Installation
 
@@ -126,29 +131,37 @@ MagicCapsLock 是一款创新的 Windows 工具，它能将你的 CapsLock 键�
 - `CapsLock + F5`: 切换所有锁定键
 
 #### 导航
-- `CapsLock + H/J/K/L`: 左/下/上/右（类似 Vim）
-- `CapsLock + I/O`: Home/End（行首/行尾）
-- `CapsLock + U`: Page Up（上翻页）
-- `CapsLock + N`: Page Down（下翻页）
-- `CapsLock + X`: 关闭当前窗口（相当于 Alt+F4）
+- `CapsLock + f/b/u/n`: Right/Left/Up/Down
+- `CapsLock + p/o`: Word Right/Left
+- `CapsLock + a/e`: Home/End
+- `CapsLock + t/v`: Page Up/Down
+- Mouse wheel with CapsLock: Quick page scrolling
 
-#### 文本编辑
-- `CapsLock + A`: 全选（相当于 Ctrl+A）
-- `CapsLock + Z`: 撤销（相当于 Ctrl+Z）
-- `CapsLock + Y`: 重做（相当于 Ctrl+Y）
-- `CapsLock + C`: 复制（相当于 Ctrl+C）
-- `CapsLock + V`: 粘贴（相当于 Ctrl+V）
+#### Text Editing
+- `CapsLock + h`: Backspace
+- `CapsLock + d`: Delete
+- `CapsLock + j`: Delete word left
+- `CapsLock + k`: Delete word right
+- `CapsLock + l`: Delete to line end
+- `CapsLock + x`: Cut current line
+- `CapsLock + [/]`: Indent left/right
+- `CapsLock + .`: Convert to UPPERCASE
+- `CapsLock + ,`: Convert to lowercase
+- `CapsLock + /`: Capitalize first letter
 
-#### 窗口管理
-- `CapsLock + Tab`: 在窗口间切换（相当于 Alt+Tab）
-- `CapsLock + Q`: 切换到上一个标签页（相当于 Ctrl+Shift+Tab）
-- `CapsLock + E`: 切换到下一个标签页（相当于 Ctrl+Tab）
-- `CapsLock + W`: 关闭当前标签页（相当于 Ctrl+W）
+#### Selection & Special Functions
+- `CapsLock + q`: Enter selection mode
+- `CapsLock + i`: Select current line
+- `CapsLock + w`: Toggle window always on top
+- `CapsLock + m`: Minimize window
+- `CapsLock + z`: Send Esc key
+- `CapsLock + r`: Send Enter key
+- `CapsLock + \``: Insert current date
 
-#### 特殊功能
-- 连按三次 CapsLock: 切换传统的 CapsLock
-- `CapsLock + Space`: 切换输入法
-- `CapsLock + Esc`: 打开任务管理器
+#### Web & Search
+- `CapsLock + s`: Open selected text in Perplexity
+- `CapsLock + g`: Search selected text in Google
+- `CapsLock + c`: Smart URL open
 
 ### 安装方法
 
